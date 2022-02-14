@@ -1,0 +1,37 @@
+body {
+	font-family: Arial;
+}
+
+header {
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	justify-content: space-around;
+	gap: 30px 30px;	
+}
+
+#circle1 {
+	fill: orangered;
+}
+
+#circle2 {
+	fill: blueviolet;
+}
+
+#circle2:hover {
+
+}
+
+#circle3 {
+	fill: greenyellow;
+}
+
+.outer-circle {
+	border-style: solid;
+	border-color: black;
+}
