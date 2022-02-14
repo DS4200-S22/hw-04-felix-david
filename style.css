@@ -23,12 +23,12 @@ header {
 	fill: blueviolet;
 }
 
-#circle2:hover {
-
-}
-
 #circle3 {
 	fill: greenyellow;
+}
+
+#circle3Click {
+	opacity: 0;
 }
 
 .outer-circle {
