@@ -32,6 +32,6 @@ header {
 }
 
 .outer-circle {
-	border-style: solid;
-	border-color: black;
+	stroke: black;
+	stroke-width: 5px;
 }
