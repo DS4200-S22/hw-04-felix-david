@@ -22,3 +22,13 @@ function removeBorder() {
   document.getElementById("circle2").style.strokeWidth = "0px";
 }
 
+// Click to hide and make reappear circle3
+
+function circle3Clicked() {
+  let appear = document.getElementById("circle3").getAttribute("class");
+  if (appear == "outer-circle") {
+    document.getElementById("circle3").setAttribute("class", "transparent");
+  } else {
+    document.getElementById("circle3").setAttribute("class", "outer-circle")
+  }
+}

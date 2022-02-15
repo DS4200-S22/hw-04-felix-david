@@ -23,9 +23,6 @@ header {
 	fill: blueviolet;
 }
 
-#circle2:hover {
-
-}
 
 #circle3 {
 	fill: greenyellow;
@@ -34,4 +31,9 @@ header {
 .outer-circle {
 	stroke: black;
 	stroke-width: 5px;
+}
+
+.transparent {
+	fill-opacity: 0;
+	border-opacity: 0;
 }
