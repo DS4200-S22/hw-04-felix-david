@@ -10,12 +10,13 @@
 
 <body>
     <header>
-        Event Handling
+        <h1>Event Handling</h1>
     </header>
 
     <div class="flex-container">
 
         <svg width="200" height="200" viewBox="0 0 200 200"> 
+<<<<<<< HEAD
             <circle id="circle1" class="outer-circle" cx="100" cy="100" r="80" />
 
             <text x="50%" y="50%" stroke="#FFFFFF" stroke-width="2px" text-anchor="middle" alignment-baseline="central">0</text>
@@ -23,6 +24,18 @@
 
         <svg width="200" height="200" viewBox="0 0 200 200"> 
             <circle id="circle2" class="blue" cx="100" cy="100" r="80" />
+=======
+                <circle id="circle1" class="outer-circle" cx="100" cy="100" r="80" onClick="circle1Clicked()"/>
+
+                <text id="counter" x="50%" y="50%" stroke="#000000" stroke-width="2px" dy=".3em" 
+                text-anchor="middle" alignment-baseline="middle">
+                0
+                </text>
+        </svg>
+
+        <svg width="200" height="200" viewBox="0 0 200 200"> 
+                <circle id="circle2" class="blue" cx="100" cy="100" r="80"/>
+>>>>>>> origin
         </svg>
 
         <svg width="200" height="200" viewBox="0 0 200 200"> 
@@ -36,3 +49,6 @@
 <script type="text/javascript" src="main.js"></script>
 
 </html>
+
+<!-- onmouseover="addBorder(this)" 
+                onmouseout="normalImage(this)"  -->
